@@ -17,6 +17,7 @@ wins_against = {
 if user == computer:
     print("It's a Tie!!")
 elif wins_against[user] == computer:
-    print("You win!!")
+    print("You win, Point 1 for you!!")
+    player_score += 1
 else:
     print("You Lose!!")
